@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Trivia</title>  
+            <link rel="stylesheet" href="cuadros1.css">
+        </head>
+    <body onload="start()">
+        <header>
+                <h1><u>TRIVIANIME</u></h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="Inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="cuadro1.html">Juego</a>
+                </li>
+                <li>
+                    <a href="Recomendaciones.html">Recomendaciones</a>
+                </li>
+                <li>
+                    <a href="TopAnime2.0.html">Página Web</a>
+                </li>
+                <li>
+                    <a href="Iniciosesion.html">Formulario</a>
+                </li>
+            </ul>
+        </nav>
+            <section>
+                <main>
+                    <div class="cuadrito">
+                    <table>
+                       <thead>
+                            <tr>
+                            <th colspan="2">
+                                <h1 style="font-size: 38px"><span ><strong>NEW GAME ANIME</span></strong></h1>
+                            </th>
+                            </tr>
+                       </thead>
+                       <tbody>
+                        <tr>
+                            <td>
+                                <p><b><u>Nivel Medio</u></b></p>
+                            <div class="chronometer">
+                                <div id="screen">00 : 00 : 00 : 00</div>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <h3><img class="izquierda" src="http://pm1.narvii.com/6225/8a01b34e2156b06baa9c399314dcd541b133d37a_00.jpg">¿Cuál es el verdadero nombre de Kira en Death Note?</h3>
+                            
+                                <button id="op1" class ="correcta"  onclick="calcularPuntaje('Normal2.html','correcta')">Ligth Yagami</button>
+                            
+                                <button id="op2" class ="incorrecta"  onclick="calcularPuntaje('Normal2.html','incorrecta')">Ryuk Yagami</button>
+                            
+                                <button id="op3" class ="incorrecta"  onclick="calcularPuntaje('Normal2.html','incorrecta')">L</button>
+                            
+                                <button id="op4" class ="incorrecta"  onclick="calcularPuntaje('Normal2.html','incorrecta')">Ryusaki Ryuga</button>
+                            
+                                <button id="op5" class ="incorrecta"  onclick="calcularPuntaje('Normal2.html','incorrecta')">Soichiro Yagami</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </main>
+                </section>
+<script src="cuadro1.js"></script>        
+    </body>
+</html>

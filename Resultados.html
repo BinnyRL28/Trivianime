@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <title>Trivia</title>  
+            <link rel="stylesheet" href="cuadros1.css">
+        </head>
+    <body onload="mostrarResultado()">
+        <header>
+                <h1><u>TRIVIANIME</u></h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="Inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="cuadro1.html">Juego</a>
+                </li>
+                <li>
+                    <a href="Recomendaciones.html">Recomendaciones</a>
+                </li>
+                <li>
+                    <a href="TopAnime2.0.html">Página Web</a>
+                </li>
+                <li>
+                    <a href="Iniciosesion.html">Formulario</a>
+                </li>
+            </ul>
+        </nav>
+            <section>
+            <main>
+            
+            <div class="Parte3">
+                <table>
+                    <thead>
+                        <tr>
+                            <th><h1><span ><strong>NEW GAME ANIME</span></strong></h1></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <h2>RESULTADOS</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for resultados> Resuestas Acertados
+                                    <input type="text" placeholder="Sin acertadas" id="cantidadCorrecta" name="resultados" readonly>
+                                </label>
+                                <label for resultados>Respuestas Equivocados
+                                <input type="text" placeholder="Sin equivocadas" id="cantidadIncorrecta" name="resultados" readonly>
+                            </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Respuestas Nulas
+                                <input type="text" placeholder="Sin nulas" id="cantidadNula" name="resultados" readonly>
+                            </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for resultados><b>PUNTAJE TOTAL</b> 
+                                <input type="text" placeholder="Observa tu puntaje" id="resultados" name="resultados" readonly>
+                            </label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="Conexión">
+                    <a id="volver-jugar"href="Cuadro2.html">Volver a Jugar</a>
+                </div>
+            </main>
+         </section>
+
+        <script src="cuadro1.js"></script> 
+    </body>
+</html>

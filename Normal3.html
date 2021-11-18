@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Trivia</title>  
+            <link rel="stylesheet" href="cuadros1.css">
+        </head>
+    <body onload="start()">
+        <header>
+                <h1><u>TRIVIANIME</u></h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="Inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="cuadro1.html">Juego</a>
+                </li>
+                <li>
+                    <a href="Recomendaciones.html">Recomendaciones</a>
+                </li>
+                <li>
+                    <a href="TopAnime2.0.html">Página Web</a>
+                </li>
+                <li>
+                    <a href="Iniciosesion.html">Formulario</a>
+                </li>
+            </ul>
+        </nav>
+            <section>
+                <main>
+                    <div class="cuadrito">
+                    <table>
+                       <thead>
+                            <tr>
+                            <th colspan="2">
+                                <h1 style="font-size: 38px"><span ><strong>NEW GAME ANIME</span></strong></h1>
+                            </th>
+                            </tr>
+                       </thead>
+                       <tboby>
+                        <tr>
+                            <td>
+                            <p><b><u>Nivel Medio</u></b></p>
+                            <div class="chronometer">
+                                <div id="screen">00 : 00 : 00 : 00</div>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <h3><img class="izquierda"  src="https://www.nintenderos.com/wp-content/uploads/2019/10/ash-ketchum-pokemon-espada-escudo-sword-shield.jpg">¿Cuál es el nombre japonés de Ash Ketchum?</h3>
+                            
+                                <button id="op1" class ="incorrecta"  onclick="calcularPuntaje('Normal4.html','incorrecta')">Yuji</button>
+                            
+                                <button id="op2" class ="incorrecta"  onclick="calcularPuntaje('Normal4.html','incorrecta')">Shinji</button>
+                           
+                                <button id="op3" class ="correcta"  onclick="calcularPuntaje('Normal4.html','correcta')">Sarochi</button>
+                           
+                                <button id="op4" class ="incorrecta"  onclick="calcularPuntaje('Normal4.html','incorrecta')">Saitama</button>
+                            
+                                <button id="op5" class ="incorrecta"  onclick="calcularPuntaje('Normal4.html','incorrecta')">Takeo</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </main>
+                </section>
+<script src="cuadro1.js"></script>        
+    </body>
+</html>

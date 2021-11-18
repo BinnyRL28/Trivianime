@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Trivia</title>  
+        <link rel="stylesheet" href="cuadros1.css">
+    </head>
+<body onload="start()">
+    <header>
+            <h1><u>TRIVIANIME</u></h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="Inicio.html">Inicio</a>
+            </li>
+            <li>
+                <a href="cuadro1.html">Juego</a>
+            </li>
+            <li>
+                <a href="Recomendaciones.html">Recomendaciones</a>
+            </li>
+            <li>
+                <a href="TopAnime2.0.html">Página Web</a>
+            </li>
+            <li>
+                <a href="Iniciosesion.html">Formulario</a>
+            </li>
+        </ul>
+    </nav>
+        <section>
+            <main>
+                <div class="cuadrito">
+                <table>
+                   <thead>
+                        <tr>
+                        <th colspan="2">
+                            <h1 style="font-size: 38px"><span ><strong>NEW GAME ANIME</span></strong></h1>
+                        </th>
+                        </tr>
+                   </thead>
+                   <tbody>
+                        <tr>
+                            <td>
+                            <p><b><u>Nivel Difícil</u></b></p>
+                            <div class="chronometer">
+                                <div id="screen">00 : 00 : 00 : 00</div>
+                            </div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td>
+                        <h3><img class="izquierda" src="https://as01.epimg.net/meristation/imagenes/2020/01/15/noticias/1579084668_612285_1579085061_portada_normal.jpg">¿Cuál de estos no es un villano de Dragon Ball Z?</h3>
+                        
+                            <button id="op1" class ="incorrecta"  onclick="calcularPuntaje('Resultados.html','incorrecta')">Cell</button>
+                        
+                            <button id="op2" class ="correcta"  onclick="calcularPuntaje('Resultados.html','correcta')">Doctor Gero</button>
+                       
+                            <button id="op3" class ="incorrecta"  onclick="calcularPuntaje('Resultados.html','incorrecta')">Freezer</button>
+                        
+                            <button id="op4" class ="incorrecta"  onclick="calcularPuntaje('Resultados.html','incorrecta')">Vegeta</button>
+                       
+                            <button id="op5" class ="incorrecta"  onclick="calcularPuntaje('Resultados.html','incorrecta')">Majin Buu</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                </div>
+                </main>
+                </section>
+<script src="cuadro1.js"></script>
+        
+</body>
+</html>

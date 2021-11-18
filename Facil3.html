@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Trivia</title>  
+            <link rel="stylesheet" href="cuadros1.css">
+        </head>
+        <body onload="start()">
+        <header>
+                <h1><u>TRIVIANIME</u></h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="Inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="cuadro1.html">Juego</a>
+                </li>
+                <li>
+                    <a href="Recomendaciones.html">Recomendaciones</a>
+                </li>
+                <li>
+                    <a href="TopAnime2.0.html">Página Web</a>
+                </li>
+                <li>
+                    <a href="Iniciosesion.html">Formulario</a>
+                </li>
+            </ul>
+        </nav>
+            <section>
+                <main>
+                    <div class="cuadrito">
+                    <table>
+                       <thead>
+                            <tr>
+                            <th colspan="2">
+                                <h1 style="font-size: 38px"><span ><strong>NEW GAME ANIME</span></strong></h1>
+                            </th>
+                            </tr>
+                       </thead>
+                       <tbody>
+                        <tr>
+                            <td>
+                            <p><b><u>Nivel Fácil</u></b></p>
+                            <div class="chronometer">
+                                <div id="screen">00 : 00 : 00 : 00</div>
+                                <div class="buttons">
+                                </div>
+                            </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3><img class="izquierda" src="https://www.cinepremiere.com.mx/wp-content/uploads/2020/10/Evangelion-25-aniversario.jpg">¿Cuál es el EVA que pilotea Shinji en Neon Genesis Evangelion?</h3>
+                            
+                                <button type="submit" class="incorrecta" onclick="calcularPuntaje('Facil4.html', 'incorrecta')">Unidad 02</button>
+                            
+                                <button type="submit" class="correcta" onclick="calcularPuntaje('Facil4.html', 'correcta')">Unidad 01</button>
+                            
+                                <button type="submit" class="incorrecta" onclick="calcularPuntaje('Facil4.html', 'incorrecta')">Unidad 00</button>
+                            
+                                <button type="submit" class="incorrecta" onclick="calcularPuntaje('Facil4.html', 'incorrecta')">Unidad 05</button>
+                            
+                                <button type="submit" class="incorrecta" onclick="calcularPuntaje('Facil4.html', 'incorrecta')">Unidad 03</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                </main>
+                </section>
+<script src="cuadro1.js"></script>      
+    </body>
+</html>
